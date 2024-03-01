@@ -4,7 +4,9 @@ import { MatCardModule} from "@angular/material/card";
 import {MatDividerModule} from '@angular/material/divider';
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 @NgModule({
-    declarations : [],
+    declarations : [
+        
+    ],
     imports : [
         MatCardModule,
         MatButtonModule,
@@ -15,7 +17,8 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
         MatCardModule,
         MatButtonModule,
         MatDividerModule,
-        MatSnackBarModule
+        MatSnackBarModule,
+
     ]
 })
 

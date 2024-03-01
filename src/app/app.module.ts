@@ -14,7 +14,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { ProductFormComponent } from './components/product-form/product-form.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { MaterialModule } from './shared/material/material.module';
-import { PassengerModule } from './shared/material/passenger.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +33,7 @@ import { PassengerModule } from './shared/material/passenger.module';
     MatIconModule,
     MatSnackBarModule,
     MaterialModule,
-    PassengerModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
